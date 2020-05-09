@@ -11,6 +11,7 @@
 @import "base/logo";
 @import "base/icons";
 @import "base/tags";
+@import "base/hamburger";
 
 //Component
 @import "component/contact-us";
@@ -20,7 +21,11 @@
 @import "component/strategies";
 @import "component/about-us";
 
+@import "component/test-area__form";
+
 //Layouts
 @import "layouts/wrapper";
 @import "layouts/header";
 @import "layouts/columns";
+@import "layouts/footer";
+

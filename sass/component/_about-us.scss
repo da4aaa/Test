@@ -9,15 +9,39 @@
     margin: 0 0 45px 0;
 }
 
+.employee .block-shadowed {
+    width: 50px;
+}
+
 .employee__content {
     padding: 35px;
+    a {
+        color: $color-link;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+}
+.employee__wrapper {
+    position: relative;
+}
+.employee__photo {
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    right: -32px;
+    top: 20px;
+    
 }
 
 .employee__title {
     margin: 0;
+    @include font ($size: 1.6rem, $height: 3.1rem, $weight: bold, $style: normal)  
 }
 
 .employee__description {
     margin: 0;
+    @include font ($size: 1.4rem, $height: 1.4rem, $weight: normal, $style: normal)    
 }
 

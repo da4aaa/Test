@@ -1,0 +1,29 @@
+.footer {
+    padding: 58px 0;
+}
+.footer-wrapper {
+    display: flex;
+}
+.footer-navigation {
+    flex-grow: 1;
+}
+.footer-navigation__title{
+    margin: 0 0 5px;
+}
+.footer-navigation__links{
+    margin: 0;
+    @extend %font-add;
+    a {
+        color: $color-text;
+        @extend %transition;
+        &:hover { 
+            color: $color-primary;
+        } 
+    }
+}
+
+.footer-navigation__links {
+    li {
+        padding: 10px 0;
+    }
+}
